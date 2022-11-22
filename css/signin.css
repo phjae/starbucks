@@ -1,0 +1,104 @@
+.signin {
+  height: 500px;
+  margin-top: 120px;
+  padding: 100px 0 150px;
+  background-image: url(../images/signin_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.signin h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.signin .box {
+  position: absolute;
+  width: 500px;
+  left: 50%;
+  margin-left: calc(500px / -2);
+  margin-top: 30px;
+  background-color: #F6F5F0;
+  box-shadow: 2 2 20 rgb(0, 0, 0 .3);
+  border-radius: 4px;
+}
+.signin .box .title {
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+.signin .box .title h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #555;
+  display: flex;
+  justify-content: center;
+}
+.signin .box .title h3 span {
+  color: #006633;
+  margin-right: 4px;
+  font-weight: 700;
+}
+.signin form {
+  width: 456px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+.signin form #login-id,
+.signin form #login-pw {
+  width: 456px;
+  height: 48px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 0 12px;
+  margin-bottom: 10px;
+}
+.signin form .btn {
+  width: 456px;
+  height: 54px;
+  background-color: #006633;
+  color: #fff;
+  border: #006633;
+}
+.signin .msgs {
+  padding: 10px 0 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+.signin .msgs p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+  color: #006633;
+}
+.signin .box .buttons {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+} 
+.signin .box .buttons .button {
+  width: calc(500px / 3);
+  padding: 20px 40px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center; 
+  align-items: center;
+}
+.signin .box .buttons .button:last-child {
+  border: none;
+}
+.signin .box .buttons .button a {
+  font-size: 14px;
+  color: #555;
+}
